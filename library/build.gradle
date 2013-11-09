@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion Integer.parseInt(ANDROID_BUILD_COMPILE_SDK_VERSION)
+    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        applicationId "com.jensdriller.libs.multistatelistview"
+        minSdkVersion 8
+        targetSdkVersion Integer.parseInt(ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode Integer.parseInt(VERSION_CODE)
+        versionName VERSION_NAME
+    }
+}
+
+apply from: 'https://raw.githubusercontent.com/jenzz/gradle-mvn-push/master_jenzz/gradle-mvn-push.gradle'

@@ -9,9 +9,9 @@ A simple Android `ListView` that lets you define **three states**:
 
 Screenshots
 -----------
-![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot1.png "Empty state")
-![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot2.png "Loading state")
-![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot3.png "Loaded state")
+![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot1.png "Empty state")&nbsp;
+![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot2.png "Loading state")&nbsp;
+![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot3.png "Loaded state")&nbsp;
 ![alt text](https://raw.github.com/jenzz/Android-MultiStateListView/master/assets/Screenshot4.png "Error state")
 
 Usage
@@ -52,4 +52,24 @@ Usage
 
 Example
 -------
-Check out the [demo](https://github.com/jenzz/Android-MultiStateListView/tree/master/src/com/jensdriller/libs/multistatelistview/demo) for an example implementation.
+Check out the [sample project](https://github.com/jenzz/Android-MultiStateListView/tree/master/sample) for an example implementation.
+
+Download
+--------
+
+Grab it via Gradle:
+```groovy
+compile 'com.github.jenzz.multistatelistview:library:1.0'
+```
+or Maven:
+```xml
+<dependency>
+  <groupId>com.github.jenzz.multistatelistview</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
+License
+-------
+This project is licensed under the [MIT License](https://raw.githubusercontent.com/jenzz/Android-MultiStateListView/master/LICENSE).

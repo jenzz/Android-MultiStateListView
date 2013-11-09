@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android-MultiStateListView</string>
+    <string name="load_0">Load 0 items</string>
+    <string name="load_10">Load 10 items</string>
+    <string name="load_error">Load error</string>
+    <string name="loading_view">Loading…</string>
+
+</resources>
