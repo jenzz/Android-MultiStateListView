@@ -63,3 +63,5 @@ local.properties
 
 # PDT-specific
 .buildpath
+multistatelistview/build
+.gradle
