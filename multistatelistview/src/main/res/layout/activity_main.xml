@@ -32,12 +32,4 @@
             android:text="@string/load_error" />
     </LinearLayout>
 
-    <com.jensdriller.libs.multistatelistview.MultiStateListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        custom:emptyView="@layout/empty_view"
-        custom:errorView="@layout/error_view"
-        custom:loadingView="@layout/loading_view" />
-
 </LinearLayout>

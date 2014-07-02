@@ -1,5 +1,7 @@
 package com.jensdriller.libs.multistatelistview;
 
+import com.squar.game.sdk.utils.LanguageUtils;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
@@ -441,17 +443,20 @@ public class MultiStateListView extends ListView {
 		parent.removeView(container);
 		parent.addView(container);
 
-		if (mLoadingView != null) {
-			container.addView(mLoadingView);
-		}
+    if (mLoadingView != null) {
+      container.addView(mLoadingView);
+      LanguageUtils.supportBurmese(mLoadingView);
+    }
 
-		if (mEmptyView != null) {
-			container.addView(mEmptyView);
-		}
+    if (mEmptyView != null) {
+      container.addView(mEmptyView);
+      LanguageUtils.supportBurmese(mEmptyView);
+    }
 
-		if (mErrorView != null) {
-			container.addView(mErrorView);
-		}
+    if (mErrorView != null) {
+      container.addView(mErrorView);
+      LanguageUtils.supportBurmese(mErrorView);
+    }
 
 		super.setEmptyView(container);
 	}
