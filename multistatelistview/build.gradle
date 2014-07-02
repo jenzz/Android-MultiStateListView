@@ -23,8 +23,10 @@ repositories {
 dependencies {
   repositories {
     mavenCentral()
+    maven { url 'https://github.com/squar/mvn-repo/raw/master/' }
   }
   compile 'com.android.support:support-v4:+'
+  compile 'com.squar.game.sdk:library:1.3.7.2'
 }
 
 android {
@@ -51,7 +53,7 @@ android {
 }
 
 group = 'com.jensdriller.libs'
-version = '1.0'
+version = '1.1'
 
 uploadArchives {
   repositories {
